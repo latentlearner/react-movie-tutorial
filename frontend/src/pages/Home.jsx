@@ -35,7 +35,7 @@ function Home() {
         </button>
       </form>
 
-      <div className="movie-grid">
+      <div className="movies-grid">
         {movies.map((movie) => (
           <MovieCard key={movie.id} movie={movie} />
         ))}
