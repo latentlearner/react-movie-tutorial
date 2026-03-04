@@ -107,13 +107,6 @@
   margin-top: auto;
 }
 
-.movies-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-  width: 100%;
-}
-
 @media (max-width: 768px) {
   .movie-card {
     font-size: 0.9rem;
